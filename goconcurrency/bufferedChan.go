@@ -4,7 +4,7 @@ import "fmt"
 
 
 
-func main(){ 
+func BuffferedChan(){ 
 
 	message := make(chan string,2)
 	messageUnbufered := make(chan string)
