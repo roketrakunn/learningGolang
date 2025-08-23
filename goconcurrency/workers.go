@@ -5,7 +5,11 @@ import (
 	"sync"
 )
 
-func main(){ 
+// This example demonstrates the use of goroutines and WaitGroup for concurrency in Go. 
+// A goroutine is launched to print a message, and the main function waits for it to complete using a WaitGroup.
+// To run this code, simply call the workers() function from your main function.
+
+func workers(){ 
 	var wg sync.WaitGroup
 	wg.Add(1) 
 
