@@ -8,7 +8,7 @@ package main
 // time.After. The first select has a timeout of 1 second, so it will print
 // "timeout 1". The second select has a timeout of 3 seconds, so it
 // will successfully receive the result from the goroutine and print "result 2".
-
+/**
 import (
     "fmt"
     "time"
@@ -33,13 +33,13 @@ func main() {
 
     c2 := make(chan string, 1)
     go func() {
-        time.Sleep(2 * time.Second)
+        time.Sleep(2* time.Second)
         c2 <- "result 2"
     }()
     select {
     case res := <-c2:
         fmt.Println(res)
-    case <-time.After(3 * time.Second):
+    case <-time.After(2 * time.Second):
         fmt.Println("timeout 2")
     }
-}
+} */
