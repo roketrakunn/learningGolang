@@ -1,8 +1,10 @@
 package main
 
+//Rename test to main  and go run 
+
 import "fmt"
 
-func main() {
+func test() {
 
 	i := 10
 
