@@ -1,5 +1,5 @@
 package main
-
+/**
 import (
 	"fmt"
 	"net/http"
@@ -29,5 +29,5 @@ func main() {
 	// Start the server on port 8080
 	fmt.Println("Server running on http://localhost:8080/hello")
 	http.ListenAndServe(":8080", nil)
-}
+} */
 
