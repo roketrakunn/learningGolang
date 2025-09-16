@@ -12,7 +12,7 @@ func newPeopleHandler() http.Handler {
 	})
 }
 
-func main(){ 
+func renameToMain(){ 
 
 	mux := http.NewServeMux()
 	//handle to return 404 err
