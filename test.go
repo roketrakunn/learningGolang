@@ -4,12 +4,6 @@ package main
 
 import "fmt"
 
-func test() {
-
-	i := 10
-
-	for  i > 0 { 
-		fmt.Println("Holly crappp its works!!!")
-		i--
-	}
+func main(){ 
+	fmt.Println("HELLO SUCKERSS")
 }
