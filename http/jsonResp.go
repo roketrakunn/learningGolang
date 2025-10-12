@@ -12,8 +12,8 @@ type Joke struct {
 	Setup  string `json:"setup"`
 	Punch  string `json:"punchline"`
 }
-
-func main() {
+//renameMeTomain
+func Jsonmain() {
 	resp, err := http.Get("https://official-joke-api.appspot.com/jokes/random")
 	if err != nil {
 		panic(err)
