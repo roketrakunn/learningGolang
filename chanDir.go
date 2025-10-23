@@ -11,7 +11,7 @@ func pong(pings <-chan string, pongs chan<- string) {
     pongs <- msg
 }
 
-func main() {
+func Renametomain() {
     pings := make(chan string, 1)
     pongs := make(chan string, 1)
 

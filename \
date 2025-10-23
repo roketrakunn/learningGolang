@@ -1,0 +1,13 @@
+package main
+import "fmt"
+func main(){ 
+
+	sum :=0
+	count := 0
+
+	for ;sum <100 ;{ 
+		sum +=10
+		count +=1
+	}
+	fmt.Printf("There is %v 10s in %v ", count,sum)
+}
