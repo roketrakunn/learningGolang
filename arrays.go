@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 //I got owned by arrays so  i am doing them again.
-func main(){ 
+func renameTomain(){ 
 	q := []int{1,2,3,4,5,6,7,8,9}
 	fmt.Println(q)
 
