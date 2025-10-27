@@ -1,5 +1,6 @@
-package main
+
 /**
+package main
 import (
 	"fmt"
 )
@@ -8,13 +9,19 @@ type person struct{
 	name string
 	age int
 }
+
+type cat struct { 
+	name string
+}
+
+
 func newPerson(name string ) *person{ 
 	Person :=person{name: name}
 	Person.age = 20
 	return  &Person
 }
 
-func main(){ 
+func main(){
 
 	fmt.Println(person{name: "Me" , age: 20}) //Yeah you can do this too
 	fmt.Println(person{name: "Me"}) //Here age is zero ... means i am notb born yet...

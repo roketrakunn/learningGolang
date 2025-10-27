@@ -5,7 +5,7 @@ type human struct{
 	height, weight float64
 }
 
-func main() { 
+func RenameMeTomain() { 
 	var m = map[string]human{
 
 		"You":{140, 180}, //cm , kg

@@ -5,6 +5,9 @@ The fibonacci stuff and all
 
 */
 
+//This is a commet and i am testing ... shit why am i so slow ...
+
+
 func fibonacci() func() int {
 	a, b := 0, 1
 	return func() int {
@@ -13,6 +16,7 @@ func fibonacci() func() int {
 		return nxt
 	}
 }
+
 func main() {
 	fib := fibonacci()
 	for i := 0 ; i <= 10 ; i++ {

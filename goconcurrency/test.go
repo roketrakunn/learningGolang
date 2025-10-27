@@ -1,8 +1,20 @@
 package main
 
+import (
+	""
+	"sync"
+)
+
 func fanIn(ch1 , ch2 <-chan string) <- chan string{ 
 	out := make(chan string)
+
+	var memMang sync.Mutex //locking 
+
+	
 	go func(){ 
+		memMang.Lock()
+		defer memMang.Unlock()
+
 		for { 
 			select{
 
